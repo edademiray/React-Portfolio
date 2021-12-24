@@ -1,0 +1,37 @@
+.b{
+    width: 30%;
+    height: 35vh;
+    margin: 20px 10px;
+    border:2px solid rgb(209, 208, 208);
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+}
+.b-browser{
+    height: 20px;
+    background-color: rgb(209, 208, 208);;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    z-index: 2;
+}
+.b-circle{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin: 3px;
+    background-color: white;
+}
+.b-img{
+    margin: 0;
+    width: 100%;
+    transition: all 2s ease;
+}
+.b:hover .b-img{
+    transform: translateY( -100%);
+}
+@media screen and (max-width: 480px) {
+    .b {
+      width: 40%;
+      height: 20vh;
+    }
+  }

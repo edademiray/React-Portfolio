@@ -1,0 +1,39 @@
+.bl{
+    height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.bl-title {
+    font-size: 50px;
+    font-weight: 600;
+  }
+.bl-desc{
+    margin: 20px 0px;
+}
+
+.bl-list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+@media screen and (max-width: 480px) {
+    .bl {
+      padding: 0;
+      height: 50%;
+      margin: 15px;
+    }
+  
+    .bl-texts {
+      width: 100%;
+    }
+  
+    .bl-desc {
+      display: none;
+    }
+  }
