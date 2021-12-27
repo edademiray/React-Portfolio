@@ -3,7 +3,7 @@ import About from "./components/about/about";
 import BlogList from "./components/blogList/blogList";
 import Contact from "./components/contact/Contact";
 import Toggle from "./components/toggle/Toggle";
-import { ThemeContext, ThemeProvider } from "./context";
+import { ThemeContext } from "./context";
 import { useContext } from "react";
 const App = () => {
 
